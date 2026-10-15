@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="avatarGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2D2258"/>
+      <stop offset="60%" stop-color="#121024"/>
+      <stop offset="100%" stop-color="#080810"/>
+    </radialGradient>
+    <linearGradient id="neonRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="50%" stop-color="#00E5A8"/>
+      <stop offset="100%" stop-color="#00F0FF"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D7A98C"/>
+      <stop offset="100%" stop-color="#A57358"/>
+    </linearGradient>
+    <filter id="avatarBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient Backdrop -->
+  <rect width="500" height="500" fill="url(#avatarGlow)"/>
+
+  <!-- Concentric Cyber HUD Rings -->
+  <circle cx="250" cy="250" r="210" fill="none" stroke="rgba(108, 99, 255, 0.2)" stroke-width="1.5" stroke-dasharray="10 8"/>
+  <circle cx="250" cy="250" r="185" fill="none" stroke="rgba(0, 229, 168, 0.25)" stroke-width="1"/>
+  <circle cx="250" cy="250" r="155" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="2"/>
+
+  <!-- Geometric Grid Marks -->
+  <line x1="250" y1="20" x2="250" y2="480" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="20" y1="250" x2="480" y2="250" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Character Silhouette / Modern Creative Technologist -->
+  <g transform="translate(0, 30)">
+    <!-- Shoulders & High Collar Minimalist Coat -->
+    <path d="M 120 450 C 140 370, 180 340, 250 340 C 320 340, 360 370, 380 450 Z" fill="#141424" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <path d="M 220 340 L 250 380 L 280 340 Z" fill="#0C0C16"/>
+    
+    <!-- Neon Luminescent Collar Lapel -->
+    <path d="M 180 345 L 210 450" stroke="#6C63FF" stroke-width="2.5" filter="url(#avatarBlur)"/>
+    <path d="M 320 345 L 290 450" stroke="#00E5A8" stroke-width="2.5" filter="url(#avatarBlur)"/>
+
+    <!-- Neck -->
+    <rect x="225" y="270" width="50" height="75" rx="10" fill="url(#skinGrad)"/>
+
+    <!-- Head & Jawline -->
+    <path d="M 195 210 C 195 160, 305 160, 305 210 C 305 260, 280 295, 250 295 C 220 295, 195 260, 195 210 Z" fill="url(#skinGrad)"/>
+
+    <!-- Sleek Modern Hair -->
+    <path d="M 185 190 C 185 130, 220 110, 260 110 C 310 110, 325 145, 320 190 C 305 165, 280 155, 240 160 C 205 165, 195 180, 185 190 Z" fill="#0A0912"/>
+
+    <!-- Futuristic Cyber Glasses / Monocle HUD Visor -->
+    <rect x="205" y="195" width="90" height="24" rx="6" fill="rgba(108, 99, 255, 0.4)" stroke="#00E5A8" stroke-width="1.8" filter="url(#avatarBlur)"/>
+    <line x1="215" y1="207" x2="285" y2="207" stroke="#00F0FF" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+    <!-- Subtle Ear Nodes -->
+    <circle cx="192" cy="225" r="5" fill="#6C63FF"/>
+    <circle cx="308" cy="225" r="5" fill="#00E5A8"/>
+  </g>
+
+  <!-- High-Tech Floating Coordinate Targets -->
+  <text x="35" y="45" fill="#00E5A8" font-family="monospace" font-size="11" font-weight="bold">TARGET_ACQUIRED: LEAD_ARCHITECT</text>
+  <text x="35" y="65" fill="#A0A0A0" font-family="monospace" font-size="9">SYS_ID: #AGY-NK-2026</text>
+  
+  <text x="345" y="460" fill="#6C63FF" font-family="monospace" font-size="10">STATUS: READY_TO_DEPLOY</text>
+</svg>

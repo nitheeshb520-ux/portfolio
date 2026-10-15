@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="quantumBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080812"/>
+      <stop offset="100%" stop-color="#050508"/>
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0, 229, 168, 0.4)"/>
+      <stop offset="100%" stop-color="rgba(0, 229, 168, 0.0)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#quantumBg)"/>
+
+  <!-- Console Header -->
+  <rect x="35" y="25" width="730" height="48" rx="10" fill="#11111E" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="60" cy="49" r="6" fill="#00E5A8"/>
+  <text x="80" y="54" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700">QUANTUMPAY // DISTRIBUTED JAVA 21 SETTLEMENT BUS</text>
+  <rect x="615" y="37" width="130" height="24" rx="6" fill="rgba(108, 99, 255, 0.2)" stroke="#6C63FF"/>
+  <text x="630" y="53" fill="#6C63FF" font-family="monospace" font-size="10" font-weight="bold">SPRING BOOT 3.2</text>
+
+  <!-- Left Stats Panel -->
+  <rect x="35" y="90" width="220" height="325" rx="12" fill="#10101C" stroke="rgba(255,255,255,0.06)"/>
+  <text x="55" y="125" fill="#A0A0A0" font-family="monospace" font-size="11">PEAK THROUGHPUT</text>
+  <text x="55" y="160" fill="#00E5A8" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="800">45,820</text>
+  <text x="145" y="157" fill="#A0A0A0" font-family="monospace" font-size="11">TPS</text>
+
+  <line x1="55" y1="185" x2="235" y2="185" stroke="rgba(255,255,255,0.08)"/>
+
+  <text x="55" y="215" fill="#A0A0A0" font-family="monospace" font-size="11">SETTLEMENT LATENCY</text>
+  <text x="55" y="250" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="800">42<tspan fill="#6C63FF" font-size="18">ms</tspan></text>
+
+  <line x1="55" y1="275" x2="235" y2="275" stroke="rgba(255,255,255,0.08)"/>
+
+  <text x="55" y="305" fill="#A0A0A0" font-family="monospace" font-size="11">KAFKA CONSUMER LAG</text>
+  <text x="55" y="340" fill="#00E5A8" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="800">0.00%</text>
+
+  <rect x="55" y="365" width="180" height="32" rx="6" fill="rgba(0, 229, 168, 0.1)" stroke="rgba(0, 229, 168, 0.3)"/>
+  <text x="75" y="386" fill="#00E5A8" font-family="monospace" font-size="11">● RESILIENT QUORUM</text>
+
+  <!-- Right Chart & Real-Time Flow -->
+  <rect x="275" y="90" width="490" height="210" rx="12" fill="#10101C" stroke="rgba(255,255,255,0.06)"/>
+  <text x="300" y="125" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700">REAL-TIME INGRESS METRICS</text>
+  
+  <!-- Wave Graph -->
+  <path d="M 300 250 Q 360 210, 420 235 T 540 170 T 660 150 L 735 180 L 735 270 L 300 270 Z" fill="url(#chartGrad)"/>
+  <path d="M 300 250 Q 360 210, 420 235 T 540 170 T 660 150 L 735 180" fill="none" stroke="#00E5A8" stroke-width="3"/>
+
+  <!-- Live Shard Activity -->
+  <rect x="275" y="315" width="490" height="100" rx="12" fill="#10101C" stroke="rgba(255,255,255,0.06)"/>
+  <text x="300" y="342" fill="#A0A0A0" font-family="monospace" font-size="11">DISTRIBUTED CONSENSUS SHARDS (POSTGRESQL + REDIS CACHE)</text>
+  
+  <rect x="300" y="358" width="100" height="42" rx="6" fill="rgba(108, 99, 255, 0.15)" stroke="#6C63FF"/>
+  <text x="315" y="384" fill="#FFFFFF" font-family="monospace" font-size="11">SHARD_01: OK</text>
+
+  <rect x="415" y="358" width="100" height="42" rx="6" fill="rgba(108, 99, 255, 0.15)" stroke="#6C63FF"/>
+  <text x="430" y="384" fill="#FFFFFF" font-family="monospace" font-size="11">SHARD_02: OK</text>
+
+  <rect x="530" y="358" width="100" height="42" rx="6" fill="rgba(108, 99, 255, 0.15)" stroke="#6C63FF"/>
+  <text x="545" y="384" fill="#FFFFFF" font-family="monospace" font-size="11">SHARD_03: OK</text>
+
+  <rect x="645" y="358" width="100" height="42" rx="6" fill="rgba(0, 229, 168, 0.15)" stroke="#00E5A8"/>
+  <text x="655" y="384" fill="#00E5A8" font-family="monospace" font-size="11">PRIMARY: SYNC</text>
+</svg>

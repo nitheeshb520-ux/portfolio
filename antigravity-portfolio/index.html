@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Social Meta Tags -->
+  <title>Nitheesh Kumar // Java Developer & Full Stack Development Student</title>
+  <meta name="description" content="Portfolio of Nitheesh Kumar: Computer Science student, Java Developer, Web Developer, and UI/UX Enthusiast building purposeful full-stack applications like the Local Farmers Market.">
+  <meta name="keywords" content="Nitheesh Kumar, Java Developer, Full Stack Student, Web Developer, UI/UX Enthusiast, Spring Boot, Local Farmers Market, Student Portfolio">
+  <meta name="author" content="Nitheesh Kumar">
+  <meta name="theme-color" content="#0A0A0A">
+
+  <!-- Open Graph / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nitheesh Kumar // Java Developer & Full Stack Student">
+  <meta property="og:description" content="Authentic developer portfolio featuring full-stack Java projects, modern web engineering, and UI/UX design.">
+  <meta property="og:image" content="assets/images/project-farmers-market.svg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nitheesh Kumar // Full Stack Java Developer & Student">
+  <meta name="twitter:description" content="Building reliable Java applications and intuitive web experiences with clean code.">
+  <meta name="twitter:image" content="assets/images/project-farmers-market.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%236C63FF'/><text x='50' y='68' font-size='55' font-family='sans-serif' font-weight='bold' text-anchor='middle' fill='%2300E5A8'>N</text></svg>">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Schema.org JSON-LD Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nitheesh Kumar",
+    "jobTitle": "Java Developer & Full Stack Development Student",
+    "knowsAbout": [
+      "Java Programming",
+      "Spring Boot",
+      "Full-Stack Web Development",
+      "HTML5, CSS3 & JavaScript",
+      "UI/UX Design with Figma",
+      "SQL & Relational Databases",
+      "Digital Marketing & SEO Fundamentals"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Custom Cursor Follower -->
+  <div class="custom-cursor-dot" aria-hidden="true"></div>
+  <div class="custom-cursor-outline" aria-hidden="true"></div>
+
+  <!-- Ambient Glowing Background Orbs -->
+  <div class="ambient-glow-orb orb-primary" style="top: -10%; left: -10%; width: 600px; height: 600px;"></div>
+  <div class="ambient-glow-orb orb-secondary" style="top: 30%; right: -15%; width: 700px; height: 700px;"></div>
+  <div class="ambient-glow-orb orb-primary" style="top: 70%; left: 20%; width: 800px; height: 800px;"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Nitheesh Kumar Portfolio Homepage">
+        <div class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        </div>
+        <span>NITHEESH</span>
+        <span class="brand-tag">DEV // 2026</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Real Projects</a>
+        <a href="#capabilities" class="nav-link">Focus Areas</a>
+        <a href="#roadmap" class="nav-link">Roadmap</a>
+        <a href="#philosophy" class="nav-link">Philosophy</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action Controls: Theme Switcher, Audio FX, Let's Talk CTA -->
+      <div class="header-actions">
+        <!-- Theme Accent Switcher -->
+        <div class="theme-switcher" title="Switch Aesthetic Accent Theme">
+          <button class="theme-dot dot-default active" data-theme="default" aria-label="Violet and Mint Theme"></button>
+          <button class="theme-dot dot-cyber" data-theme="cyber" aria-label="Cyber Cyan and Pink Theme"></button>
+          <button class="theme-dot dot-solar" data-theme="solar" aria-label="Solar Gold and Mint Theme"></button>
+        </div>
+
+        <!-- Audio FX Toggle -->
+        <button id="sound-toggle" class="sound-toggle-btn" aria-label="Toggle Futuristic Audio FX" title="Toggle UI Sound Effects">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+        </button>
+
+        <!-- CTA Button -->
+        <a href="#contact" class="btn btn-primary btn-sm header-cta-btn">
+          <span>Get In Touch</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+
+        <!-- Mobile Toggle Hamburger -->
+        <button id="mobile-toggle" class="mobile-nav-toggle" aria-label="Toggle navigation drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay Drawer -->
+  <div id="mobile-drawer" class="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <a href="#about" class="nav-link">About Me</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#capabilities" class="nav-link">Focus Areas</a>
+    <a href="#roadmap" class="nav-link">Learning Roadmap</a>
+    <a href="#philosophy" class="nav-link">Philosophy</a>
+    <a href="#contact" class="nav-link">Get In Touch</a>
+    <a href="#contact" class="btn btn-primary" style="margin-top: 1rem;">Let's Connect</a>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         1. HERO SECTION
+         ========================================================================== -->
+    <section id="hero" class="hero-section">
+      <!-- Interactive 60fps Canvas Particle Constellation -->
+      <canvas id="canvas-bg"></canvas>
+
+      <div class="container" style="position: relative; z-index: 2;">
+        <div class="hero-grid">
+          <!-- Left Column: Typography & CTAs -->
+          <div class="hero-text-content">
+            <div class="hero-status-pill reveal-init">
+              <span class="status-indicator pulsing-dot"></span>
+              <span>COMPUTER SCIENCE STUDENT • OPEN TO INTERNSHIPS &amp; JUNIOR ROLES</span>
+            </div>
+
+            <h1 class="hero-title reveal-init reveal-delay-1">
+              Building Reliable <span class="animated-gradient-text">Software Systems</span> With Java &amp; Intuitive Web Experiences.
+            </h1>
+
+            <p class="hero-subtitle reveal-init reveal-delay-2">
+              Hello, I am <strong>Nitheesh Kumar</strong> — a passionate Java developer, full stack development student, web creator, and UI/UX enthusiast. I build purposeful applications like the <strong>Local Farmers Market</strong>, bridging robust backend logic with clean, human-centered web design.
+            </p>
+
+            <div class="hero-cta-group reveal-init reveal-delay-3">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Work</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+              </a>
+
+              <a href="#contact" class="btn btn-secondary">
+                <span>Contact Me</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
+
+              <button class="btn btn-outline" id="copy-email-btn" title="Click to copy direct email">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span>Copy Email</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Column: 3D Holographic Card & Avatar Visual -->
+          <div class="hero-profile-container reveal-init reveal-delay-2">
+            <div class="hero-visual-card tilt-card shimmer-effect">
+              <!-- HUD Floating Tags -->
+              <div class="hud-badge hud-badge-top float-slow">
+                <svg class="hud-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                <div>
+                  <div style="font-size: 0.65rem; color: var(--text-muted);">PRIMARY STACK</div>
+                  <div style="color: var(--accent-secondary); font-weight: bold;">JAVA &amp; SPRING BOOT</div>
+                </div>
+              </div>
+
+              <div class="hud-badge hud-badge-bottom float-reverse">
+                <svg class="hud-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                <div>
+                  <div style="font-size: 0.65rem; color: var(--text-muted);">DISCIPLINE</div>
+                  <div style="color: var(--accent-primary); font-weight: bold;">FULL STACK &amp; UI/UX</div>
+                </div>
+              </div>
+
+              <!-- Profile Avatar -->
+              <div class="avatar-wrapper">
+                <img src="assets/images/nitheesh-profile.jpeg" alt="Nitheesh Kumar - Full Stack Java Developer" class="avatar-image">
+              </div>
+
+              <!-- Profile Card Telemetry Footer -->
+              <div class="profile-card-footer">
+                <div>
+                  <div class="profile-card-name">Nitheesh Kumar</div>
+                  <div class="profile-card-role">Java Developer &amp; Student</div>
+                </div>
+                <div class="signature-badge">
+                  <span class="status-indicator"></span>
+                  <span>ACTIVE LEARNER</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Metrics Ticker Bar (100% Realistic & Grounded) -->
+        <div class="hero-metrics-bar reveal-init reveal-delay-4">
+          <div class="metrics-grid">
+            <div class="metric-item">
+              <div class="metric-number">
+                <span data-counter="10" data-suffix="+">0</span>
+              </div>
+              <div class="metric-label">Academic &amp; Practical Code Repositories</div>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number">
+                <span data-counter="5" data-suffix=" Core">0</span>
+              </div>
+              <div class="metric-label">Core Pillars (Java, Spring, Web, UI/UX, SEO)</div>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number">
+                <span data-counter="100" data-suffix="%">0</span>
+              </div>
+              <div class="metric-label">Focus on Clean Code &amp; Best Practices</div>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number">
+                <span data-counter="2026" data-prefix="">0</span>
+              </div>
+              <div class="metric-label">Target Graduate / Career Launch</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         2. ABOUT ME SECTION (STUDENT & DEVELOPER JOURNEY)
+         ========================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag">01 // Background</span>
+          <h2 class="section-title">Rooted in Fundamentals, <span class="gradient-text">Driven by Curiosity</span></h2>
+          <p class="section-description">
+            A genuine look into my development journey, technical mindset, and passion for building functional, human-friendly software.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Narrative & Philosophy Pillars -->
+          <div class="about-narrative reveal-init reveal-delay-1">
+            <p class="about-lead">
+              "I believe great software begins with solid fundamentals: well-structured object-oriented code, disciplined database design, and an interface that respects the user's time."
+            </p>
+            <p>
+              As a Computer Science student specializing in full-stack development, I have dedicated myself to mastering the Java ecosystem alongside modern web technologies. Rather than just learning syntax, I focus on understanding how data moves from relational database tables through Spring Boot service layers and REST APIs, all the way to responsive browser interfaces.
+            </p>
+            <p>
+              My flagship project, the <strong>Local Farmers Market</strong>, embodies this approach: taking a real community need—connecting local growers directly with buyers—and building a full-stack solution with clear domain logic, clean entity relationships, and an accessible storefront interface.
+            </p>
+
+            <!-- 4 Core Strengths -->
+            <div class="about-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                </div>
+                <h3 class="pillar-title">Java &amp; OOP Foundations</h3>
+                <p class="pillar-text">Disciplined application of Object-Oriented principles, encapsulation, inheritance, collections, and Spring Boot.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <h3 class="pillar-title">Layered Web Architecture</h3>
+                <p class="pillar-text">Structuring applications cleanly across Controller, Service, and Repository layers with RESTful communication.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 0-10 10c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+                </div>
+                <h3 class="pillar-title">UI/UX &amp; Design Thinking</h3>
+                <p class="pillar-text">Prototyping responsive layouts in Figma, designing clear user flows, and focusing on accessibility and visual hierarchy.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                </div>
+                <h3 class="pillar-title">Digital Marketing Awareness</h3>
+                <p class="pillar-text">Understanding on-page SEO, semantic metadata, structured schemas, and user engagement metrics.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Student & Developer Journey Timeline -->
+          <div class="experience-container reveal-init reveal-delay-2">
+            <div class="timeline-header">
+              <h3 style="font-size: 1.3rem; font-weight: 700;">Developer Journey</h3>
+              <span class="section-tag violet" style="margin: 0;">ACADEMIC &amp; SELF-DRIVEN</span>
+            </div>
+
+            <div class="timeline-list">
+              <!-- Item 1 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-period">CURRENT FOCUS // 2024 — PRESENT</div>
+                <h4 class="timeline-role">Full-Stack Java Development &amp; Web Projects</h4>
+                <div class="timeline-company">Academic Capstone &amp; Practical Applications</div>
+                <p class="timeline-desc">Architecting full-stack projects using Java and Spring Boot. Building REST APIs, integrating relational data persistence (Spring Data JPA), and crafting responsive frontends with HTML5, CSS3, and JavaScript.</p>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-period">FOUNDATION // 2023 — 2024</div>
+                <h4 class="timeline-role">Core Java, Data Structures &amp; Relational Databases</h4>
+                <div class="timeline-company">Computer Science Coursework &amp; Coding Practice</div>
+                <p class="timeline-desc">Mastered Core Java fundamentals: OOP principles, collections framework, exception handling, and input/output streams. Designed relational database schemas in MySQL with normalized tables and foreign key integrity.</p>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-period">EXPLORATION // 2022 — 2023</div>
+                <h4 class="timeline-role">Web Development &amp; UI/UX Prototyping</h4>
+                <div class="timeline-company">Self-Directed Learning &amp; Design Practice</div>
+                <p class="timeline-desc">Learned modern web standards: semantic HTML5, CSS layout with Flexbox and Grid, and vanilla JavaScript DOM manipulation. Created wireframes and user flow prototypes using Figma.</p>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-period">GOAL &amp; ROADMAP</div>
+                <h4 class="timeline-role">Aspiring Software Engineer / Graduate</h4>
+                <div class="timeline-company">Targeting Growth-Oriented Development Teams</div>
+                <p class="timeline-desc">Preparing for software engineering internships and junior developer roles where I can contribute to production codebases, learn from senior mentors, and solve real user challenges.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. SKILLS SECTION (REALISTIC & GROUNDED)
+         ========================================================================== -->
+    <section id="skills" class="section" style="background: rgba(14, 14, 20, 0.4);">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag violet">02 // Technical Skills</span>
+          <h2 class="section-title">Core Competencies &amp; <span class="gradient-text">Proficiencies</span></h2>
+          <p class="section-description">
+            A transparent view of the technologies I actively use, practice, and continue to master as a developer.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs reveal-init reveal-delay-1">
+          <button class="filter-tab active" data-filter="all">All Skills</button>
+          <button class="filter-tab" data-filter="java">Java &amp; Backend</button>
+          <button class="filter-tab" data-filter="frontend">Web &amp; Frontend</button>
+          <button class="filter-tab" data-filter="uiux">UI/UX Design</button>
+          <button class="filter-tab" data-filter="marketing">Digital Marketing</button>
+          <button class="filter-tab" data-filter="tools">Tools &amp; Foundations</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid">
+          <!-- Skill 1: Core Java & Spring Boot -->
+          <div class="skill-card reveal-init" data-category="java">
+            <div class="skill-top">
+              <div class="skill-info">
+                <div class="skill-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                </div>
+                <div>
+                  <h3 class="skill-name">Java &amp; Spring Boot</h3>
+                  <div class="skill-category-tag">CORE LANGUAGE</div>
+                </div>
+              </div>
+              <div class="skill-percentage">88%</div>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="88%"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-subtag">Core Java (OOP)</span>
+              <span class="skill-subtag">Collections</span>
+              <span class="skill-subtag">Spring Boot 3</span>
+              <span class="skill-subtag">REST APIs</span>
+              <span class="skill-subtag">Spring Data JPA</span>
+            </div>
+          </div>
+
+          <!-- Skill 2: Web & Frontend -->
+          <div class="skill-card reveal-init reveal-delay-1" data-category="frontend">
+            <div class="skill-top">
+              <div class="skill-info">
+                <div class="skill-icon-box" style="color: var(--accent-primary);">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <div>
+                  <h3 class="skill-name">Web &amp; Frontend</h3>
+                  <div class="skill-category-tag">CLIENT ARCHITECTURE</div>
+                </div>
+              </div>
+              <div class="skill-percentage">85%</div>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="85%"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-subtag">Semantic HTML5</span>
+              <span class="skill-subtag">CSS3 (Grid/Flex)</span>
+              <span class="skill-subtag">JavaScript (ES6+)</span>
+              <span class="skill-subtag">DOM Manipulation</span>
+              <span class="skill-subtag">Fetch API</span>
+            </div>
+          </div>
+
+          <!-- Skill 3: UI/UX Design & Prototyping -->
+          <div class="skill-card reveal-init reveal-delay-2" data-category="uiux">
+            <div class="skill-top">
+              <div class="skill-info">
+                <div class="skill-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+                </div>
+                <div>
+                  <h3 class="skill-name">UI/UX Design</h3>
+                  <div class="skill-category-tag">HUMAN-CENTERED</div>
+                </div>
+              </div>
+              <div class="skill-percentage">80%</div>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="80%"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-subtag">Figma Wireframing</span>
+              <span class="skill-subtag">Visual Hierarchy</span>
+              <span class="skill-subtag">Responsive Design</span>
+              <span class="skill-subtag">Color Contrast</span>
+              <span class="skill-subtag">User Flows</span>
+            </div>
+          </div>
+
+          <!-- Skill 4: Relational Databases & SQL -->
+          <div class="skill-card reveal-init" data-category="java">
+            <div class="skill-top">
+              <div class="skill-info">
+                <div class="skill-icon-box" style="color: var(--accent-primary);">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                </div>
+                <div>
+                  <h3 class="skill-name">Databases &amp; SQL</h3>
+                  <div class="skill-category-tag">DATA PERSISTENCE</div>
+                </div>
+              </div>
+              <div class="skill-percentage">82%</div>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="82%"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-subtag">MySQL</span>
+              <span class="skill-subtag">H2 Database</span>
+              <span class="skill-subtag">Relational Schemas</span>
+              <span class="skill-subtag">CRUD Queries</span>
+              <span class="skill-subtag">Hibernate ORM</span>
+            </div>
+          </div>
+
+          <!-- Skill 5: Digital Marketing & SEO -->
+          <div class="skill-card reveal-init reveal-delay-1" data-category="marketing">
+            <div class="skill-top">
+              <div class="skill-info">
+                <div class="skill-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                </div>
+                <div>
+                  <h3 class="skill-name">Digital Marketing &amp; SEO</h3>
+                  <div class="skill-category-tag">GROWTH AWARENESS</div>
+                </div>
+              </div>
+              <div class="skill-percentage">78%</div>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="78%"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-subtag">On-Page SEO</span>
+              <span class="skill-subtag">Meta &amp; Schema.org</span>
+              <span class="skill-subtag">Keyword Strategy</span>
+              <span class="skill-subtag">Analytics Concepts</span>
+              <span class="skill-subtag">Conversion Funnels</span>
+            </div>
+          </div>
+
+          <!-- Skill 6: Tools & Foundations -->
+          <div class="skill-card reveal-init reveal-delay-2" data-category="tools">
+            <div class="skill-top">
+              <div class="skill-info">
+                <div class="skill-icon-box" style="color: var(--accent-primary);">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+                </div>
+                <div>
+                  <h3 class="skill-name">Developer Tooling</h3>
+                  <div class="skill-category-tag">WORKFLOW &amp; VCS</div>
+                </div>
+              </div>
+              <div class="skill-percentage">85%</div>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" data-width="85%"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-subtag">Git &amp; GitHub</span>
+              <span class="skill-subtag">Apache Maven</span>
+              <span class="skill-subtag">Postman API Testing</span>
+              <span class="skill-subtag">IntelliJ IDEA / VS Code</span>
+              <span class="skill-subtag">Clean Debugging</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Continuous Tech Stack Marquee -->
+        <div class="tech-marquee-section">
+          <div class="marquee-track">
+            <!-- Set 1 -->
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg> CORE JAVA</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> SPRING BOOT 3</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg> HTML5 &amp; MODERN CSS3</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/></svg> JAVASCRIPT (ES6+)</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg> MYSQL &amp; JPA</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/></svg> FIGMA PROTOTYPING</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> GIT &amp; GITHUB</div>
+            <!-- Set 2 -->
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg> CORE JAVA</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> SPRING BOOT 3</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg> HTML5 &amp; MODERN CSS3</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/></svg> JAVASCRIPT (ES6+)</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg> MYSQL &amp; JPA</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/></svg> FIGMA PROTOTYPING</div>
+            <div class="marquee-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> GIT &amp; GITHUB</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. FEATURED REAL PROJECT (LOCAL FARMERS MARKET)
+         ========================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag">03 // Flagship Project</span>
+          <h2 class="section-title">Local Farmers Market <span class="gradient-text">Case Study</span></h2>
+          <p class="section-description">
+            A comprehensive breakdown of my real full-stack Java application designed to connect local growers directly with community consumers.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Flagship Project Card 1: Full-Stack Overview -->
+          <article class="project-card reveal-init" data-category="fullstack">
+            <div class="project-thumbnail">
+              <img src="assets/images/project-farmers-market.svg" alt="Local Farmers Market Full-Stack Java Application Dashboard" loading="lazy">
+              <span class="project-badge-overlay">FULL-STACK JAVA &amp; SPRING</span>
+              <span class="project-metric-pill">CAPSTONE PROJECT</span>
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">Local Farmers Market Platform</h3>
+                <button class="btn-icon" data-case-study="local-farmers-market" title="Inspect Full Case Study" aria-label="Inspect Local Farmers Market Case Study">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+              </div>
+
+              <!-- Problem -> Solution -> Impact Triad -->
+              <div class="case-study-triad">
+                <div class="triad-row">
+                  <span class="triad-badge badge-problem">Problem</span>
+                  <div class="triad-text">Small local farmers lack an accessible digital solution to list seasonal harvests, update daily stock, and process community orders directly.</div>
+                </div>
+                <div class="triad-row">
+                  <span class="triad-badge badge-solution">Solution</span>
+                  <div class="triad-text">Engineered a layered full-stack application with a Java &amp; Spring Boot backend, Spring Data JPA persistence, and a responsive web storefront.</div>
+                </div>
+                <div class="triad-row">
+                  <span class="triad-badge badge-impact">Impact</span>
+                  <div class="triad-text">Implemented end-to-end CRUD for produce, relational order management, asynchronous cart state, and mobile-responsive UI.</div>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java 21</span>
+                <span class="tech-tag">Spring Boot 3</span>
+                <span class="tech-tag">Spring Data JPA</span>
+                <span class="tech-tag">MySQL / H2</span>
+                <span class="tech-tag">HTML5 &amp; CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" data-case-study="local-farmers-market">
+                  <span>Case Study Details</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+                <a href="https://github.com/nitheesh-dev/local-farmers-market" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source Code on GitHub">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Module 2: Backend Architecture & JPA Layer -->
+          <article class="project-card reveal-init reveal-delay-1" data-category="backend">
+            <div class="project-thumbnail">
+              <img src="assets/images/project-quantum.svg" alt="Java Spring Boot Backend Architecture" loading="lazy">
+              <span class="project-badge-overlay">JAVA SERVICE &amp; JPA LAYER</span>
+              <span class="project-metric-pill">LAYERED MVC</span>
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">Farmer Inventory &amp; REST APIs</h3>
+                <button class="btn-icon" data-case-study="farmers-market-inventory" title="Inspect Module Case Study" aria-label="Inspect Inventory Module Case Study">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+              </div>
+
+              <!-- Problem -> Solution -> Impact Triad -->
+              <div class="case-study-triad">
+                <div class="triad-row">
+                  <span class="triad-badge badge-problem">Problem</span>
+                  <div class="triad-text">Produce stock changes daily based on harvest, demanding strict transactional persistence to avoid overselling.</div>
+                </div>
+                <div class="triad-row">
+                  <span class="triad-badge badge-solution">Solution</span>
+                  <div class="triad-text">Constructed Spring Data JPA repositories, DTO models, input validation annotations, and REST controllers.</div>
+                </div>
+                <div class="triad-row">
+                  <span class="triad-badge badge-impact">Impact</span>
+                  <div class="triad-text">Clean separation between business logic and database access, ensuring data consistency across product updates.</div>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java OOP</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Hibernate</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">RESTful API</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" data-case-study="farmers-market-inventory">
+                  <span>Backend Audit</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+                <a href="https://github.com/nitheesh-dev/local-farmers-market" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source Code">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Module 3: UI/UX & Responsive Web Design -->
+          <article class="project-card reveal-init" data-category="uiux">
+            <div class="project-thumbnail">
+              <img src="assets/images/project-nexus.svg" alt="UI/UX Design Systems and Wireframes" loading="lazy">
+              <span class="project-badge-overlay">FIGMA &amp; RESPONSIVE UI</span>
+              <span class="project-metric-pill">USER-CENTERED</span>
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">Marketplace UI/UX &amp; Storefront</h3>
+                <button class="btn-icon" data-case-study="farmers-market-uiux" title="Inspect UI/UX Module" aria-label="Inspect UI/UX Case Study">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+              </div>
+
+              <!-- Problem -> Solution -> Impact Triad -->
+              <div class="case-study-triad">
+                <div class="triad-row">
+                  <span class="triad-badge badge-problem">Problem</span>
+                  <div class="triad-text">Cluttered agricultural websites often confuse buyers with poor navigation and broken mobile layouts.</div>
+                </div>
+                <div class="triad-row">
+                  <span class="triad-badge badge-solution">Solution</span>
+                  <div class="triad-text">Prototyped user journeys in Figma; implemented mobile-first responsive cards using CSS Grid and Flexbox.</div>
+                </div>
+                <div class="triad-row">
+                  <span class="triad-badge badge-impact">Impact</span>
+                  <div class="triad-text">Clear visual hierarchy, fast category filtering, accessible contrast ratios, and intuitive checkout steps.</div>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Figma Prototyping</span>
+                <span class="tech-tag">CSS Flexbox / Grid</span>
+                <span class="tech-tag">Responsive Design</span>
+                <span class="tech-tag">Accessibility</span>
+                <span class="tech-tag">JavaScript DOM</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" data-case-study="farmers-market-uiux">
+                  <span>Design Walkthrough</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+                <a href="https://github.com/nitheesh-dev/local-farmers-market" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source Code">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Module 4: Digital Marketing & SEO Integration -->
+          <article class="project-card reveal-init reveal-delay-1" data-category="marketing">
+            <div class="project-thumbnail">
+              <img src="assets/images/project-aura.svg" alt="Digital Marketing and SEO Schema Architecture" loading="lazy">
+              <span class="project-badge-overlay">TECHNICAL SEO &amp; METADATA</span>
+              <span class="project-metric-pill">DISCOVERABILITY</span>
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">SEO &amp; Local Discovery Architecture</h3>
+                <button class="btn-icon" data-case-study="farmers-market-seo" title="Inspect SEO Module" aria-label="Inspect SEO Module Case Study">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+              </div>
+
+              <!-- Problem -> Solution -> Impact Triad -->
+              <div class="case-study-triad">
+                <div class="triad-row">
+                  <span class="triad-badge badge-problem">Problem</span>
+                  <div class="triad-text">Local farms struggle to be indexed by search engines and discovered by nearby community shoppers.</div>
+                </div>
+                <div class="triad-row">
+                  <span class="triad-badge badge-solution">Solution</span>
+                  <div class="triad-text">Integrated Schema.org product structured data, semantic headings, Open Graph cards, and optimized URL routing.</div>
+                </div>
+                <div class="triad-row">
+                  <span class="triad-badge badge-impact">Impact</span>
+                  <div class="triad-text">Structured microdata ready for search engine rich snippets, improving local indexing and user click-through rates.</div>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Technical SEO</span>
+                <span class="tech-tag">Schema.org JSON-LD</span>
+                <span class="tech-tag">Open Graph</span>
+                <span class="tech-tag">Semantic Web</span>
+                <span class="tech-tag">Meta Architecture</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" data-case-study="farmers-market-seo">
+                  <span>SEO Audit</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+                <a href="https://github.com/nitheesh-dev/local-farmers-market" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source Code">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. CORE CAPABILITIES (FOCUS AREAS)
+         ========================================================================== -->
+    <section id="capabilities" class="section" style="background: rgba(14, 14, 20, 0.4);">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag violet">04 // Focus Areas</span>
+          <h2 class="section-title">What I Bring to <span class="gradient-text">Engineering Teams</span></h2>
+          <p class="section-description">
+            Key areas where I apply disciplined software engineering, user-centered design, and enthusiastic collaboration.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Area 1: Java & Backend -->
+          <div class="service-card reveal-init">
+            <div class="service-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg>
+            </div>
+            <h3 class="service-title">Java Backend Engineering</h3>
+            <p class="service-desc">
+              Developing well-structured backend services with Java and Spring Boot, emphasizing clean OOP separation, RESTful APIs, and database consistency.
+            </p>
+            <ul class="service-deliverables">
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Layered Controller-Service-Repository pattern</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Spring Data JPA relational mappings &amp; SQL queries</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Input validation, exception handling &amp; clean endpoints</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Area 2: Web & Frontend -->
+          <div class="service-card reveal-init reveal-delay-1">
+            <div class="service-icon-wrapper" style="color: var(--accent-primary);">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="service-title">Responsive Web Development</h3>
+            <p class="service-desc">
+              Crafting semantic, accessible web interfaces that render flawlessly across desktop, tablet, and mobile devices using modern CSS and JavaScript.
+            </p>
+            <ul class="service-deliverables">
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Semantic HTML5 markup with accessible hierarchy</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Fluid CSS Grid, Flexbox &amp; custom glassmorphic styling</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Vanilla JavaScript asynchronous DOM updates</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Area 3: UI/UX & Prototyping -->
+          <div class="service-card reveal-init reveal-delay-2">
+            <div class="service-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg>
+            </div>
+            <h3 class="service-title">UI/UX Design &amp; Prototyping</h3>
+            <p class="service-desc">
+              Designing user-friendly workflows and wireframes in Figma before implementing them in code, ensuring deliberate visual hierarchy and smooth user journeys.
+            </p>
+            <ul class="service-deliverables">
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Wireframing and interactive prototypes in Figma</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Typography hierarchy, spacing systems &amp; color balance</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>User-centered accessibility and responsive thinking</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Area 4: Digital Marketing & SEO -->
+          <div class="service-card reveal-init">
+            <div class="service-icon-wrapper" style="color: var(--accent-primary);">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
+            <h3 class="service-title">SEO &amp; Growth Fundamentals</h3>
+            <p class="service-desc">
+              Applying technical on-page SEO, Schema.org microdata, and keyword optimization principles to ensure web applications are discoverable and indexable.
+            </p>
+            <ul class="service-deliverables">
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Technical on-page SEO &amp; Schema.org JSON-LD</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Core Web Vitals awareness &amp; fast asset delivery</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Conversion path optimization and clear CTAs</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Area 5: Work Ethic & Collaboration -->
+          <div class="service-card service-card-wide reveal-init reveal-delay-1">
+            <div class="service-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            </div>
+            <h3 class="service-title">Growth Mindset &amp; Team Collaboration</h3>
+            <p class="service-desc">
+              A commitment to disciplined version control with Git, welcoming constructive feedback, writing clean documentation, and learning proactively every single day.
+            </p>
+            <ul class="service-deliverables" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem;">
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Clear Git commit hygiene and branching workflows</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Receptive to code reviews and architectural guidance</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Thorough documentation and clear explanations</span>
+              </li>
+              <li class="service-deliverable-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Enthusiasm for solving real problems through software</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. LEARNING ROADMAP & TECHNICAL MILESTONES (TRUTHFUL & GROUNDED)
+         ========================================================================== -->
+    <section id="roadmap" class="section">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag">05 // Growth Trajectory</span>
+          <h2 class="section-title">Learning Roadmap &amp; <span class="gradient-text">Milestones</span></h2>
+          <p class="section-description">
+            A transparent overview of the technical foundations I have built and the advanced milestones currently on my horizon.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Milestone 1 -->
+          <div class="achievement-card reveal-init">
+            <div class="achievement-header">
+              <div class="achievement-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span class="achievement-year">COMPLETED</span>
+            </div>
+            <h3 class="achievement-title">Core Java &amp; OOP Foundations</h3>
+            <div class="achievement-issuer">Core Language Competency</div>
+            <p class="achievement-desc">Mastered object-oriented programming principles, collections framework, exception handling hierarchies, and structured problem solving.</p>
+          </div>
+
+          <!-- Milestone 2 -->
+          <div class="achievement-card reveal-init reveal-delay-1">
+            <div class="achievement-header">
+              <div class="achievement-badge-icon" style="color: var(--accent-primary); background: var(--accent-primary-subtle); border-color: rgba(108, 99, 255, 0.3);">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span class="achievement-year">COMPLETED</span>
+            </div>
+            <h3 class="achievement-title">Full-Stack Java Web Application</h3>
+            <div class="achievement-issuer">Local Farmers Market Project</div>
+            <p class="achievement-desc">Designed and implemented a full-stack Spring Boot application with JPA persistence, REST endpoints, relational database models, and web storefront.</p>
+          </div>
+
+          <!-- Milestone 3 -->
+          <div class="achievement-card reveal-init reveal-delay-2">
+            <div class="achievement-header">
+              <div class="achievement-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span class="achievement-year">COMPLETED</span>
+            </div>
+            <h3 class="achievement-title">Responsive Web &amp; UI/UX</h3>
+            <div class="achievement-issuer">Modern Frontend &amp; Figma</div>
+            <p class="achievement-desc">Applied semantic HTML5, modern CSS Grid/Flexbox, JavaScript DOM techniques, and Figma wireframing for user-friendly responsive web pages.</p>
+          </div>
+
+          <!-- Milestone 4 -->
+          <div class="achievement-card reveal-init">
+            <div class="achievement-header">
+              <div class="achievement-badge-icon" style="color: var(--accent-amber); background: rgba(255, 184, 0, 0.12); border-color: rgba(255, 184, 0, 0.3);">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+              </div>
+              <span class="achievement-year">IN PROGRESS</span>
+            </div>
+            <h3 class="achievement-title">Advanced Spring &amp; Cloud Basics</h3>
+            <div class="achievement-issuer">Active Learning Horizon</div>
+            <p class="achievement-desc">Currently deepening knowledge in Spring Security, JWT authentication, containerization with Docker, and cloud deployment fundamentals.</p>
+          </div>
+
+          <!-- Milestone 5 -->
+          <div class="achievement-card reveal-init reveal-delay-1">
+            <div class="achievement-header">
+              <div class="achievement-badge-icon" style="color: var(--accent-cyan); background: rgba(0, 240, 255, 0.12); border-color: rgba(0, 240, 255, 0.3);">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span class="achievement-year">UPCOMING</span>
+            </div>
+            <h3 class="achievement-title">Modern Frontend Frameworks</h3>
+            <div class="achievement-issuer">React &amp; Component Systems</div>
+            <p class="achievement-desc">Planned roadmap to build component-driven single-page applications with React, integrating seamlessly with Spring Boot REST microservices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. DEVELOPMENT PHILOSOPHY & WORK ETHIC (AUTHENTIC VALUES)
+         ========================================================================== -->
+    <section id="philosophy" class="section" style="background: rgba(14, 14, 20, 0.4);">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag violet">06 // Principles</span>
+          <h2 class="section-title">Development Philosophy &amp; <span class="gradient-text">Core Values</span></h2>
+          <p class="section-description">
+            The values and discipline that guide my daily coding, collaborative projects, and engineering journey.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Philosophy 1 -->
+          <div class="testimonial-card reveal-init">
+            <div class="star-rating">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-quote">
+              "Curiosity over complacency. Whenever I encounter a bug, an unfamiliar framework concept, or an unexpected exception, I treat it as an opportunity to read official documentation, understand the root cause, and permanently reinforce my foundation."
+            </p>
+            <div class="testimonial-author-row">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #6C63FF, #00E5A8); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">01</div>
+              <div>
+                <div class="author-name">Continuous Curiosity</div>
+                <div class="author-role">Root Cause Engineering &amp; Documentation</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Philosophy 2 -->
+          <div class="testimonial-card reveal-init reveal-delay-1">
+            <div class="star-rating">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-quote">
+              "Clean code is respectful code. Clear variable names, modular methods, well-placed comments, and consistent Git commits make codebases easier for teammates to review, maintain, and expand."
+            </p>
+            <div class="testimonial-author-row">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #00E5A8, #00F0FF); display: flex; align-items: center; justify-content: center; font-weight: bold; color: #0A0A0A;">02</div>
+              <div>
+                <div class="author-name">Maintainability First</div>
+                <div class="author-role">Clean Code, Modularity &amp; Git Hygiene</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Philosophy 3 -->
+          <div class="testimonial-card reveal-init reveal-delay-2">
+            <div class="star-rating">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial-quote">
+              "Empathy for the end user. Backend architecture matters deeply, but if the frontend is difficult to navigate or inaccessible on a mobile phone, the software fails its primary purpose. That is why I value UI/UX equally."
+            </p>
+            <div class="testimonial-author-row">
+              <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #FFB800, #FF5376); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">03</div>
+              <div>
+                <div class="author-name">User-First Empathy</div>
+                <div class="author-role">Bridging Backend Logic &amp; Accessible UI</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. CONTACT SECTION
+         ========================================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <span class="section-tag">07 // Let's Connect</span>
+          <h2 class="section-title">Open to Opportunities &amp; <span class="gradient-text">Conversations</span></h2>
+          <p class="section-description">
+            Whether you are looking for an eager Java / Full Stack student intern, a junior developer, or want to discuss the Local Farmers Market project, I'd love to connect.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Direct Info & Social Channels -->
+          <div class="contact-info-panel reveal-init">
+            <div class="contact-highlight-card">
+              <div class="contact-detail-item">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">DIRECT EMAIL</div>
+                  <div class="contact-value">nitheesh.developer@gmail.com</div>
+                  <button class="copy-email-btn" id="copy-email-text" onclick="navigator.clipboard.writeText('nitheesh.developer@gmail.com'); window.showToast('Email address copied!');">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                    <span>Click to copy email</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="contact-icon-box" style="color: var(--accent-secondary); background: var(--accent-secondary-subtle);">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">LOCATION &amp; AVAILABILITY</div>
+                  <div class="contact-value">Open to Remote &amp; On-Site Opportunities</div>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">STATUS</div>
+                  <div class="contact-value" style="color: var(--accent-secondary);">● Actively Seeking Internships &amp; Junior Roles</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Icon Row -->
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.8rem; text-transform: uppercase;">
+                CONNECT &amp; CODE REPOSITORIES
+              </div>
+              <div class="social-links-row">
+                <a href="https://github.com/nitheesh-dev" target="_blank" rel="noopener noreferrer" class="btn-icon" title="GitHub Profile">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+
+                <a href="https://linkedin.com/in/nitheesh-kumar" target="_blank" rel="noopener noreferrer" class="btn-icon" title="LinkedIn Profile">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+
+                <a href="https://figma.com/@nitheesh" target="_blank" rel="noopener noreferrer" class="btn-icon" title="Figma Community">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"/><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"/><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"/><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"/><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Form -->
+          <div class="contact-form-card reveal-init reveal-delay-1">
+            <form id="portfolio-contact-form">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">YOUR FULL NAME *</label>
+                  <input type="text" id="contact-name" class="form-input" placeholder="e.g. Alex Morgan" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">EMAIL ADDRESS *</label>
+                  <input type="email" id="contact-email" class="form-input" placeholder="alex@company.com" required>
+                </div>
+              </div>
+
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="contact-service" class="form-label">OPPORTUNITY / TOPIC</label>
+                  <select id="contact-service" class="form-select">
+                    <option value="internship">Software Engineering Internship</option>
+                    <option value="junior-dev">Junior Full-Stack / Java Developer</option>
+                    <option value="project-inquiry">Local Farmers Market Project Discussion</option>
+                    <option value="collaboration">Collaborative Project / Hackathon</option>
+                    <option value="mentorship">Mentorship &amp; Feedback</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-budget" class="form-label">TIMELINE / AVAILABILITY</label>
+                  <select id="contact-budget" class="form-select">
+                    <option value="immediate" selected>Immediate Availability</option>
+                    <option value="summer">Upcoming Summer Internship</option>
+                    <option value="graduating">Post-Graduation Role</option>
+                    <option value="parttime">Part-Time / Contract</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">MESSAGE *</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Share details about the role, feedback on my projects, or an opportunity to connect..." required></textarea>
+              </div>
+
+              <button type="submit" id="contact-submit-btn" class="btn btn-primary" style="width: 100%; padding: 1.1rem;">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#hero" class="brand-logo">
+          <div class="brand-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <span>NITHEESH KUMAR</span>
+          <span class="brand-tag">PORTFOLIO // 2026</span>
+        </a>
+
+        <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-secondary);">
+          Java Developer • Full Stack Student • Web Developer • UI/UX Enthusiast
+        </div>
+
+        <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top">
+          <span>Back To Top</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+        </button>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Nitheesh Kumar. Authentic, truthful &amp; built with passion for clean code.
+        </div>
+        <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-secondary);">
+          ● STATUS: AUTHENTIC PORTFOLIO
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS & TOAST NOTIFICATION CONTAINER
+       ========================================================================== -->
+  <!-- Case Study Detailed Inspection Modal Overlay -->
+  <div id="case-study-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-case-body">
+    <div class="modal-content-box">
+      <div class="modal-header">
+        <div style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent-secondary); letter-spacing: 0.1em;">
+          PROJECT ARCHITECTURE &amp; CASE STUDY
+        </div>
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Close Case Study Modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div id="modal-case-body" class="modal-body">
+        <!-- Injected dynamically via js/main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/canvas-bg.js"></script>
+  <script src="js/projects-data.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
